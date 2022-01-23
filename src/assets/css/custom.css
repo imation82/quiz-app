@@ -348,6 +348,14 @@ h3 {
 		float: left;
 	}
 
+	.quiz-block-inner {
+		padding: 95px 15px 40px 15px;
+	}
+
+	.right-icon {
+		margin-right: 15px;
+	}
+
 }
 
 @media screen and (min-width: 481px) and (max-width: 1439px) {
