@@ -1,5 +1,11 @@
 <template>
     <section id="wrapper">
+      <div class="top-rectangle">
+        <img :src="images.rectangleTop" alt="Rectangle Top">
+      </div>
+      <div class="bottom-rectangle">
+        <img :src="images.rectangleBottom" alt="Rectangle Bottom">
+      </div>
       <div class="quiz-block">
         <h2>Pets Quiz</h2>
         <div v-if="!showResult" class="quiz-block-inner clearfix">
@@ -42,6 +48,8 @@
 </template>
 
 <script>
+import rectangleTop from '../assets/images/rectangle-top.png'
+import rectangleBottom from '../assets/images/rectangle-bottom.png'
 import relaxingWalk from '../assets/images/relaxing-walk.png'
 import rightArrow from '../assets/images/right-arrow.png'
 import winners from '../assets/images/winners.png'
@@ -86,7 +94,9 @@ export default {
             images: {
                 rightArrow,
                 winners,
-                relaxingWalk
+                relaxingWalk,
+                rectangleTop,
+                rectangleBottom
             }
         };
   },

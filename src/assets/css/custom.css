@@ -296,36 +296,142 @@ h3 {
 }
 
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 320px) and (max-width:  480px) {
 
 	#wrapper {
-		width: 1440px;
-		height: 1024px;
 		background: var(--color2);
-		margin: auto;
-		padding: 50px 0;
+		margin: 0 auto;
+		min-height: 100vh;
 		position: relative;
 	}
 
 	.quiz-block {
-	    padding-top: 54px;
-	    width: 464px;
-	    margin: 0 auto;
+		width: 300px;
+		margin: auto;
+		padding-bottom: 40px;
 	}
 
-	.quiz-block::before {
-	    content: url('../../assets/images/rectangle-bottom.png');
+	h2 {
+		font-size: 1.25rem;
+		padding-top: 15px;
+	}
+
+	.btn-3 {
+		font-size: 15px;
+	}
+
+	.top-rectangle img {
 	    position: absolute;
-	    bottom: -6px;
+	    width: 50%;
+	    height: auto;
+	    top: 0;
+	    right: 0;
+	}
+
+	.bottom-rectangle img {
+	    position: absolute;
+	    width: 50%;
+	    height: auto;
+	    bottom: 0;
 	    left: 0;
 	}
 
-	.quiz-block::after {
-	    content: url('../../assets/images/rectangle-top.png');
+	.quiz-block h4 {
+	    bottom: 0px;
+	    padding-bottom: 5px;
+	}	
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 1439px) {
+
+	#wrapper {
+		background: var(--color2);
+		margin: 0 auto;
+		min-height: 100vh;
+		position: relative;
+	}
+
+	.quiz-block {
+		width: 464px;
+		margin: auto;
+		padding-bottom: 40px;
+	}
+
+	h2 {
+		font-size: 2.25rem;
+		padding-top: 15px;
+	}
+
+	.btn-3 {
+		font-size: 20px;
+	}
+
+	.quiz-block h4 {
+		bottom: 0px;
+	}
+
+	.top-rectangle img {
+	    position: absolute;
+	    width: 45%;
+	    height: auto;
+	    top: 0;
+	    right: 0;
+	}
+
+	.bottom-rectangle img {
+	    position: absolute;
+	    width: 45%;
+	    height: auto;
+	    bottom: 0;
+	    left: 0;
+	}
+
+	.quiz-block h4 {
+	    bottom: 0px;
+	    padding-bottom: 5px;
+	}	
+
+}
+
+@media screen and (min-width:  1440px) {
+
+	#wrapper {
+	    background: var(--color2);
+	    margin: 0 auto;
+	    position: relative;
+	    width: 1440px;
+	    height: 1024px;
+	}
+
+	.quiz-block {
+	    width: 464px;
+	    margin: 0 auto;
+	    padding-top: 54px;
+	}
+
+	h2 {
+		font-size: 2.25rem;
+	}
+
+	.btn-3 {
+		font-size: 20px;
+	}
+
+	.quiz-block h4 {
+		bottom: 35px;
+	}
+
+	.top-rectangle img {
 	    position: absolute;
 	    top: 0;
 	    right: 0;
 	}
 
+	.bottom-rectangle img {
+	    position: absolute;
+	    bottom: 0;
+	    left: 0;
+	}	
 }
 
