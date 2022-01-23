@@ -339,7 +339,14 @@ h3 {
 	.quiz-block h4 {
 	    bottom: 0px;
 	    padding-bottom: 5px;
-	}	
+	}
+	
+	.btn-3 .letter {
+		margin-left: 15px;
+		margin-right: 10px;
+		font-weight: 700;
+		float: left;
+	}
 
 }
 
@@ -390,7 +397,8 @@ h3 {
 	.quiz-block h4 {
 	    bottom: 0px;
 	    padding-bottom: 5px;
-	}	
+	}
+		
 
 }
 
