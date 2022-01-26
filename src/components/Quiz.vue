@@ -48,11 +48,11 @@
 </template>
 
 <script>
-import rectangleTop from '../assets/images/rectangle-top.png'
-import rectangleBottom from '../assets/images/rectangle-bottom.png'
-import relaxingWalk from '../assets/images/relaxing-walk.png'
-import rightArrow from '../assets/images/right-arrow.png'
-import winners from '../assets/images/winners.png'
+import rectangleTop from '../assets/images/rectangle-top.svg'
+import rectangleBottom from '../assets/images/rectangle-bottom.svg'
+import relaxingWalk from '../assets/images/relaxing-walk.svg'
+import rightArrow from '../assets/images/right-arrow.svg'
+import winners from '../assets/images/winners.svg'
 export default {
     name: "Quiz",
     props: {},
